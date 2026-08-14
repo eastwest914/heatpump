@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>F&H Heating, Cooling & Plumbing — HVAC Contractor in Topton, PA</title>
+<meta name="description" content="F&H Heating, Cooling & Plumbing — trusted HVAC contractor, air conditioning contractor, heating contractor & plumber serving Topton, PA and surrounding areas. Fast, honest, reliable service.">
+<meta name="keywords" content="HVAC Contractor, Air Conditioning Contractor, Heating Contractor, Plumber, AC Repair, Heating Repair, Boiler Installation">
+<meta property="og:title" content="F&H Heating, Cooling & Plumbing — HVAC Contractor in Topton, PA">
+<meta property="og:description" content="Trusted HVAC contractor, air conditioning contractor, heating contractor & plumber serving Topton, PA and surrounding areas.">
+<meta property="og:image" content="https://fandhhvac.com/wp-content/uploads/2026/06/image-5.webp">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fandhhvac.com/">
+<link rel="icon" href="https://fandhhvac.com/wp-content/uploads/2026/06/site-logo.webp">
+<style>
+  :root{
+    --navy:#0B3C5D;
+    --blue-deep:#0B4F8A;
+    --blue:#1C74BB;
+    --blue-light:#EAF3FB;
+    --orange:#F26522;
+    --orange-dark:#D9540F;
+    --ink:#132A3A;
+    --grey:#5B6B78;
+    --white:#FFFFFF;
+    --line:#DCE6EE;
+    --radius:12px;
+    --shadow: 0 10px 30px rgba(11,60,93,0.10);
+    --shadow-sm: 0 4px 14px rgba(11,60,93,0.08);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color:var(--ink);
+    background:var(--white);
+    line-height:1.6;
+  }
+  h1,h2,h3,h4{
+    font-family:Georgia, 'Times New Roman', serif;
+    color:var(--navy);
+    line-height:1.2;
+    margin:0 0 14px;
+  }
+  p{margin:0 0 14px; color:var(--grey);}
+  a{color:inherit; text-decoration:none;}
+  .kw-link{color:var(--blue-deep); font-weight:700; text-decoration:underline; text-decoration-color:var(--orange); text-underline-offset:3px;}
+  .kw-link:hover{color:var(--orange-dark);}
+  .why-section .kw-link, .hero .kw-link{color:#8FD0FF; text-decoration-color:var(--orange);}
+  .why-section .kw-link:hover, .hero .kw-link:hover{color:var(--white);}
+  img{max-width:100%; display:block;}
+  .wrap{max-width:1140px; margin:0 auto; padding:0 24px;}
+  .eyebrow{
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-size:13px;
+    font-weight:700;
+    color:var(--orange);
+    margin-bottom:10px;
+    display:block;
+  }
+  section{padding:80px 0;}
+  .btn{
+    display:inline-block;
+    padding:14px 28px;
+    border-radius:8px;
+    font-weight:700;
+    font-size:15px;
+    cursor:pointer;
+    border:2px solid transparent;
+    transition:all .2s ease;
+  }
+  .btn-primary{background:var(--orange); color:var(--white);}
+  .btn-primary:hover{background:var(--orange-dark);}
+  .btn-outline{background:transparent; color:var(--white); border-color:rgba(255,255,255,0.7);}
+  .btn-outline:hover{background:rgba(255,255,255,0.12); border-color:var(--white);}
+  .btn-solid-blue{background:var(--blue-deep); color:var(--white);}
+  .btn-solid-blue:hover{background:var(--navy);}
+
+  /* HEADER */
+  header{
+    position:sticky; top:0; z-index:100;
+    background:var(--white);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:14px 24px;
+    max-width:1140px; margin:0 auto;
+  }
+  .brand{display:flex; align-items:center; gap:12px;}
+  .brand img{height:52px; width:auto;}
+  .brand span{font-family:Georgia, serif; font-weight:700; font-size:19px; color:var(--navy); line-height:1.15;}
+  nav.links{display:flex; gap:28px; align-items:center;}
+  nav.links a{font-weight:600; font-size:15px; color:var(--navy);}
+  nav.links a:hover{color:var(--orange);}
+  .call-btn{
+    display:flex; align-items:center; gap:8px;
+    background:var(--orange); color:var(--white);
+    padding:10px 18px; border-radius:8px; font-weight:700; font-size:14px;
+  }
+  .call-btn:hover{background:var(--orange-dark);}
+
+  /* HERO */
+  .hero{
+    background:linear-gradient(120deg, var(--navy) 0%, var(--blue-deep) 55%, var(--blue) 100%);
+    color:var(--white);
+    padding:100px 0 90px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:"";
+    position:absolute; right:-120px; top:-120px;
+    width:420px; height:420px; border-radius:50%;
+    background:rgba(242,101,34,0.15);
+  }
+  .hero .wrap{position:relative; z-index:2;}
+  .hero .eyebrow{color:#8FD0FF;}
+  .hero h1{color:var(--white); font-size:44px; max-width:680px;}
+  .hero p.lead{color:#DDEBF7; max-width:560px; font-size:18px;}
+  .hero-actions{display:flex; gap:16px; margin:28px 0; flex-wrap:wrap;}
+  .hero-hours{
+    display:inline-flex; align-items:center; gap:10px;
+    font-size:14px; color:#CFE3F5; margin-top:6px;
+  }
+  .hero-hours strong{color:var(--white);}
+
+  /* ABOUT */
+  .about-grid{
+    display:grid; grid-template-columns:1.1fr 0.9fr; gap:56px; align-items:center;
+  }
+  .about-grid img{border-radius:var(--radius); box-shadow:var(--shadow);}
+  ul.check{list-style:none; padding:0; margin:20px 0;}
+  ul.check li{
+    padding-left:30px; position:relative; margin-bottom:12px; color:var(--ink); font-weight:500;
+  }
+  ul.check li::before{
+    content:"✓"; position:absolute; left:0; top:0;
+    color:var(--white); background:var(--blue-deep);
+    width:20px; height:20px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-size:12px; font-weight:900;
+  }
+
+  /* SERVICES */
+  .services{background:var(--blue-light);}
+  .section-head{text-align:center; max-width:640px; margin:0 auto 50px;}
+  .section-head .eyebrow{display:block; text-align:center;}
+  .grid-4{display:grid; grid-template-columns:repeat(3,1fr); gap:28px;}
+  .card{
+    background:var(--white); border-radius:var(--radius);
+    padding:32px 26px; box-shadow:var(--shadow-sm);
+    border-top:4px solid var(--blue-deep);
+    transition:transform .2s ease, box-shadow .2s ease;
+  }
+  .card:hover{transform:translateY(-4px); box-shadow:var(--shadow);}
+  .card .icon{
+    width:48px; height:48px; border-radius:10px;
+    background:var(--blue-light); color:var(--blue-deep);
+    display:flex; align-items:center; justify-content:center;
+    font-size:22px; margin-bottom:16px; font-weight:800;
+  }
+  .card h3{font-size:19px; margin-bottom:8px;}
+  .card p{font-size:15px; margin-bottom:0;}
+
+  /* WHY US */
+  .why-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:24px;}
+  .why-card{
+    text-align:center; padding:30px 20px;
+  }
+  .why-card .num{
+    width:54px; height:54px; border-radius:50%;
+    background:var(--orange); color:var(--white);
+    display:flex; align-items:center; justify-content:center;
+    font-weight:800; font-size:18px; margin:0 auto 16px;
+  }
+  .why-card h4{font-size:18px; margin-bottom:8px;}
+  .why-card p{font-size:14px; margin-bottom:0;}
+  .why-section{background:var(--navy); color:var(--white);}
+  .why-section h2, .why-section .eyebrow{color:var(--white);}
+  .why-section .eyebrow{color:#8FD0FF;}
+  .why-section p{color:#CFE3F5;}
+  .why-card h4{color:var(--white);}
+  .why-card p{color:#CFE3F5;}
+
+  /* FAQ */
+  .faq-item{
+    border-bottom:1px solid var(--line);
+    padding:22px 0;
+  }
+  .faq-item h4{
+    font-size:17px; margin-bottom:10px; color:var(--navy);
+    display:flex; gap:10px; align-items:flex-start;
+  }
+  .faq-item h4 span{color:var(--orange); font-family:Georgia, serif;}
+  .faq-item p{margin-bottom:0; font-size:15px;}
+
+  /* CONTACT */
+  .contact-grid{display:grid; grid-template-columns:0.9fr 1.1fr; gap:50px;}
+  .contact-card{
+    background:var(--blue-light); border-radius:var(--radius); padding:36px;
+  }
+  .contact-card h3{margin-bottom:18px;}
+  .contact-row{display:flex; gap:14px; margin-bottom:18px; align-items:flex-start;}
+  .contact-row .ic{
+    width:38px; height:38px; border-radius:8px; background:var(--blue-deep); color:var(--white);
+    display:flex; align-items:center; justify-content:center; font-size:16px; flex-shrink:0;
+  }
+  .contact-row strong{display:block; color:var(--navy); font-size:14px;}
+  .contact-row span, .contact-row a{color:var(--grey); font-size:15px;}
+  .map-frame{border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow-sm); line-height:0;}
+  .map-frame iframe{width:100%; height:100%; min-height:380px; border:0;}
+
+  /* FOOTER */
+  footer{background:var(--navy); color:#B9CBDA; padding:50px 0 24px;}
+  .footer-top{display:flex; justify-content:space-between; flex-wrap:wrap; gap:30px; padding-bottom:30px; border-bottom:1px solid rgba(255,255,255,0.12);}
+  footer .brand span{color:var(--white);}
+  .related h4{color:var(--white); font-size:15px; margin-bottom:12px;}
+  .tags{display:flex; flex-wrap:wrap; gap:10px; max-width:420px;}
+  .tags span{
+    background:rgba(255,255,255,0.08); padding:6px 12px; border-radius:20px; font-size:13px;
+  }
+  .copyright{text-align:center; padding-top:22px; font-size:13px; color:#8CA3B5;}
+
+  @media (max-width:860px){
+    nav.links{display:none;}
+    .about-grid, .contact-grid{grid-template-columns:1fr;}
+    .grid-4{grid-template-columns:1fr 1fr;}
+    .why-grid{grid-template-columns:1fr 1fr;}
+    .hero h1{font-size:32px;}
+  }
+  @media (max-width:520px){
+    .grid-4{grid-template-columns:1fr;}
+    .why-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a href="#home" class="brand">
+      <img src="https://fandhhvac.com/wp-content/uploads/2026/06/site-logo.webp" alt="F&H Heating, Cooling & Plumbing logo">
+    </a>
+    <nav class="links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#why">Why Us</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="tel:610-349-2181" class="call-btn">📞 610-349-2181</a>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="wrap">
+    <span class="eyebrow">HVAC Contractor · Topton, PA</span>
+    <h1>Comfort You Can Count On, From Your Local HVAC Contractor</h1>
+    <p class="lead">F&H Heating, Cooling & Plumbing is the local <a href="https://fandhhvac.com/" class="kw-link" title="HVAC Contractor">HVAC contractor</a> that keeps homes and businesses across Topton, PA warm in winter, cool in summer, and running smoothly year-round — with honest pricing and dependable service every time.</p>
+    <div class="hero-actions">
+      <a href="tel:610-349-2181" class="btn btn-primary">Call 610-349-2181</a>
+      <a href="#contact" class="btn btn-outline">Request a Free Estimate</a>
+    </div>
+    <div class="hero-hours">🕑 <strong>Fast, reliable scheduling</strong> — heating, cooling & plumbing experts ready to help</div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap about-grid">
+    <div>
+      <span class="eyebrow">About Us</span>
+      <h2>Your Trusted HVAC Contractor & Plumber in Topton, PA</h2>
+      <p><strong>F&H Heating, Cooling & Plumbing</strong> is a locally owned <a href="https://fandhhvac.com/" class="kw-link" title="HVAC Contractor">HVAC contractor</a> and plumbing company proudly serving Topton, PA and the surrounding communities. We specialize in heating, air conditioning, and <a href="#services" class="kw-link" title="Plumber">plumbing services</a> for homeowners and businesses who expect quality workmanship and straightforward answers.</p>
+      <p>Our licensed technicians combine hands-on experience with a genuine commitment to doing the job right the first time — so you get lasting comfort, not just a quick fix.</p>
+      <ul class="check">
+        <li>Licensed, background-checked technicians</li>
+        <li>Upfront, honest pricing — no surprises</li>
+        <li>Heating, cooling & plumbing under one roof</li>
+      </ul>
+    </div>
+    <div>
+      <img src="https://fandhhvac.com/wp-content/uploads/2026/06/image-5.webp" alt="F&H Heating, Cooling & Plumbing technician at work">
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Our Services</span>
+      <h2>Full-Service Heating, Cooling & Plumbing</h2>
+      <p>From emergency repairs to full system installations, our team handles it all with the same care and attention to detail.</p>
+    </div>
+    <div class="grid-4">
+      <div class="card">
+        <div class="icon">❄</div>
+        <h3>Air Conditioning Services</h3>
+        <p><a href="#contact" class="kw-link" title="Air Conditioning Contractor">AC repair</a>, tune-ups, and new system installation to keep your home cool and efficient all summer long.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🔥</div>
+        <h3>Heating & Furnace Services</h3>
+        <p><a href="#contact" class="kw-link" title="Heating Contractor">Heating repair</a>, maintenance, and installation designed to keep your home warm and safe through every winter.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🛠</div>
+        <h3>Boiler Installation & Repair</h3>
+        <p>Expert <a href="#contact" class="kw-link" title="Boiler Installation">boiler installation</a>, repair, and replacement performed to code by experienced, licensed technicians.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🚰</div>
+        <h3>Plumbing Services</h3>
+        <p>Reliable <a href="#contact" class="kw-link" title="Plumber">plumbing repairs</a>, fixture installs, and leak fixes handled by a team you can trust in your home.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🌬</div>
+        <h3>Indoor Air Quality</h3>
+        <p>Solutions to help your home breathe easier, including filtration, humidity control, and ventilation upgrades.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🚨</div>
+        <h3>Emergency HVAC Service</h3>
+        <p>No heat, no AC, or a plumbing issue that can't wait? Our <a href="https://fandhhvac.com/" class="kw-link" title="HVAC Contractor">HVAC contractor</a> team responds quickly when you need us most.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="why-section" id="why">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Why Choose Us</span>
+      <h2>Why Choose F&H Heating, Cooling & Plumbing?</h2>
+      <p>Homeowners across Topton, PA trust F&H Heating, Cooling & Plumbing because we treat every home like our own.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="num">1</div>
+        <h4>Licensed & Experienced</h4>
+        <p>Our technicians are fully licensed <a href="https://fandhhvac.com/" class="kw-link" title="HVAC Contractor">HVAC</a> and plumbing professionals with years of hands-on field experience.</p>
+      </div>
+      <div class="why-card">
+        <div class="num">2</div>
+        <h4>Honest, Upfront Pricing</h4>
+        <p>You'll know the cost before we start — no hidden fees, no pressure, just clear, straightforward quotes.</p>
+      </div>
+      <div class="why-card">
+        <div class="num">3</div>
+        <h4>Fast, Reliable Response</h4>
+        <p>Heating and cooling emergencies don't wait, and neither do we. We show up promptly, ready to work.</p>
+      </div>
+      <div class="why-card">
+        <div class="num">4</div>
+        <h4>Customer Satisfaction Focus</h4>
+        <p>We stand behind our work and aim to earn your trust on every visit, not just the first one.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">FAQ</span>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-list" style="max-width:780px; margin:0 auto;">
+      <div class="faq-item">
+        <h4><span>Q.</span> Do you offer emergency heating and cooling repair?</h4>
+        <p>Yes. F&H Heating, Cooling & Plumbing offers prompt emergency service for heating, cooling, and plumbing issues so you're never left waiting when something goes wrong.</p>
+      </div>
+      <div class="faq-item">
+        <h4><span>Q.</span> What areas do you serve?</h4>
+        <p>We proudly serve Topton, PA and the surrounding communities as a local <a href="https://fandhhvac.com/" class="kw-link" title="HVAC Contractor">HVAC contractor</a> and <a href="#contact" class="kw-link" title="Plumber">plumber</a>, offering fast, dependable scheduling.</p>
+      </div>
+      <div class="faq-item">
+        <h4><span>Q.</span> How often should I schedule <a href="https://fandhhvac.com/" class="kw-link" title="HVAC Contractor">HVAC</a> maintenance?</h4>
+        <p>Most systems benefit from a professional tune-up twice a year — once before summer for your AC and once before winter for your heating system.</p>
+      </div>
+      <div class="faq-item">
+        <h4><span>Q.</span> Do you handle both residential and light commercial work?</h4>
+        <p>Yes, our team handles heating, cooling, and plumbing projects for both homeowners and small businesses throughout the area.</p>
+      </div>
+      <div class="faq-item">
+        <h4><span>Q.</span> Are your technicians licensed and insured?</h4>
+        <p>Absolutely. Every technician at F&H Heating, Cooling & Plumbing is licensed, trained, and insured, so you can trust the work in your home.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="contact">
+  <div class="wrap contact-grid">
+    <div class="contact-card">
+      <h3>Contact Us</h3>
+      <div class="contact-row">
+        <div class="ic">📍</div>
+        <div><strong>Address</strong><span>20 Spruce Street, Topton, PA 19562</span></div>
+      </div>
+      <div class="contact-row">
+        <div class="ic">📞</div>
+        <div><strong>Phone</strong><a href="tel:610-349-2181">610-349-2181</a></div>
+      </div>
+      <div class="contact-row">
+        <div class="ic">🌐</div>
+        <div><strong>Website</strong><a href="https://fandhhvac.com/" target="_blank" rel="noopener">fandhhvac.com</a></div>
+      </div>
+      <div class="contact-row">
+        <div class="ic">🗺</div>
+        <div><strong>Find Us</strong><a href="https://www.google.com/maps?cid=12387536269642316299" target="_blank" rel="noopener">View on Google Maps</a></div>
+      </div>
+      <a href="tel:610-349-2181" class="btn btn-solid-blue" style="margin-top:10px;">Call for a Free Estimate</a>
+    </div>
+    <div class="map-frame">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d388716.2201695214!2d-75.697509!3d40.43442055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c42cd0f1941f63%3A0xabe95e9af24c3a0b!2sF%20%26%20H%20Heating%2C%20Cooling%20%26%20Plumbing!5e0!3m2!1sen!2s!4v1786711019100!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <a href="#home" class="brand">
+        <img src="https://fandhhvac.com/wp-content/uploads/2026/06/site-logo.webp" alt="F&H Heating, Cooling & Plumbing logo" style="height:44px; filter:brightness(0) invert(1);">
+      </a>
+      <div class="related">
+        <h4>Related Searches</h4>
+        <div class="tags">
+          <span>HVAC Contractor</span>
+          <span>Air Conditioning Contractor</span>
+          <span>Heating Contractor</span>
+          <span>Plumber</span>
+          <span>AC Repair</span>
+          <span>Heating Repair</span>
+          <span>Boiler Installation</span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© 2026 F&H Heating, Cooling & Plumbing — All Rights Reserved. | 20 Spruce Street, Topton, PA 19562 | 610-349-2181</div>
+  </div>
+</footer>
+
+</body>
+</html>
